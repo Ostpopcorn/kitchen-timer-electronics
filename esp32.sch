@@ -18586,6 +18586,11 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="215.9" y1="45.72" x2="208.28" y2="45.72" width="0.1524" layer="91"/>
 <label x="208.28" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="81.28" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
+<label x="88.9" y="111.76" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="IO22"/>
+</segment>
 </net>
 <net name="TMS" class="0">
 <segment>
@@ -18909,9 +18914,9 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 </net>
 <net name="BAT_MONITOR_ENABLE" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SENSOR_VN"/>
-<wire x1="40.64" y1="134.62" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
-<label x="38.1" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="83.82" y="114.3" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="IO21"/>
+<wire x1="81.28" y1="114.3" x2="83.82" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -18935,6 +18940,20 @@ Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="241.3" y1="124.46" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 <label x="243.84" y="114.3" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="33.02" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SENSOR_VN"/>
+<wire x1="40.64" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="WS2812B_DATA" class="0">
+<segment>
+<wire x1="81.28" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
+<label x="88.9" y="109.22" size="1.778" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="IO23"/>
 </segment>
 </net>
 </nets>
