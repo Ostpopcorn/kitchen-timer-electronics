@@ -294,16 +294,13 @@ UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
 UsedLibrary="C:/Users/adrian/Documents/EAGLE/libraries/Rembrandt Electronics - JST XH Connectors v1-0.lbr"
 UsedLibrary="C:/Users/adrian/Documents/EAGLE/libraries/SamacSys_Parts.lbr"
+UsedLibrary="C:/Users/adrian/Documents/EAGLE/libraries/con-JST PH.lbr"
 
 [Win_1]
-Type="Control Panel"
-Number=0
-
-[Win_2]
 Type="Schematic Editor"
 Number=2
 File="esp32.sch"
-View="27.3017 36.207 159.593 126.424"
+View="181.966 63.9785 314.257 154.195"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -342,15 +339,15 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 27.3017 36.207 159.593 126.424 2: 10.589 16.3621 199.203 146.274 3: -2.58281 6.55744 187.346 136.469"
+Views=" 1: 181.966 63.9785 314.257 154.195 2: 10.5907 4.07691 282.195 191.15 3: -36.6321 -25.3157 236.865 161.757"
 Sheet="1"
 
-[Win_3]
+[Win_2]
 Type="Board Editor"
 Number=1
 File="esp32.brd"
-View="-3.34142 40.0588 92.0547 40.3516"
-WireWidths=" 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524 0.0254 0.4572"
+View="-12.3925 27.0718 152.452 27.2764"
+WireWidths=" 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524 0.0254 0.762 0.4572"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
 ViaDiameters=" 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1 1.05 1.1 1.15 1.2 1.3 0"
@@ -389,8 +386,12 @@ AddLevel=2
 PadsSameType=0
 Layer=1
 
+[Win_3]
+Type="Control Panel"
+Number=0
+
 [Desktop]
-Screen="1920 1200"
+Screen="3840 1200"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
